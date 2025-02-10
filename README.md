@@ -79,8 +79,9 @@ The frontend provides a simple user interface allowing users to search documents
 
 ### Output Image of the Home Page:
 
-![Home Page](./images/Final_output.png)
+![Result](./images/Home_page.png)
 
 ### Output Image of the Result:
 
-![Result](./images/Home_page.png)
+![Home Page](./images/Final_output.png)
+
