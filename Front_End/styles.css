@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Search Container */
+.search-container {
+    margin-bottom: 30px;
+}
+
+.search-container input,
+.search-container select,
+.search-container button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    margin: 10px;
+    width: 250px;
+}
+
+/* Input and Select Styling */
+.search-container input,
+.search-container select {
+    background-color: #f7f7f7;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-container input:focus,
+.search-container select:focus {
+    border-color: #2575fc;
+    background-color: #fff;
+}
+
+/* Button Styling */
+.search-container button {
+    background-color: #2575fc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #1a62c4;
+}
+
+/* Results Container */
+.results-container {
+    margin-top: 40px;
+}
+
+.results-container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Document Result Cards */
+.results-container .document {
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.results-container .document:hover {
+    transform: translateY(-8px);
+}
+
+.results-container .document p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Department Styling */
+.results-container .document .department {
+    font-weight: bold;
+    color: #010814;
+}
+
+/* Download Button Styling */
+.results-container .document .download-button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.results-container .document .download-button:hover {
+    background-color: #218838;
+}
+
+/* Mobile Responsive Design */
+@media screen and (max-width: 600px) {
+    .search-container input,
+    .search-container select,
+    .search-container button {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .results-container .document {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+ 
+ 
+ 
+ 
+ 
+    "AZURE_SEARCH_ENDPOINT": "<YOUR AZURE_SEARCH_ENDPOINT>",
+    "AZURE_SEARCH_KEY": "<YOUR AZURE_SEARCH_KEY>",
+    "AZURE_SEARCH_INDEX_NAME": "<YOUR AZURE_SEARCH_INDEX_NAME>",
+ 
+ 
+    "AZURE_OPENAI_ENDPOINT": "<YOUR AZURE_OPENAI_ENDPOINT>",
+    "AZURE_OPENAI_API_KEY":"<YOUR AZURE_OPENAI_API_KEY>",
+    "AZURE_OPENAI_API_VERSION":"2024-02-01",
+ 
+    "vector_store_address":"<YOUR vector_store_address>",
+    "vector_store_password": "<YOUR vector_store_password>"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

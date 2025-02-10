@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SharePoint Document Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SharePoint Document Search</h1>
+        <div class="search-container">
+            <input type="text" id="query" placeholder="Enter your search query" />
+            <select id="category">
+                <option value="">All Categories</option>
+                <option value="HR">HR</option>
+                <option value="IT">IT</option>
+                <option value="Science">Science</option>
+            </select>
+            <button onclick="search()">Search</button>
+        </div>
+        <div id="results" class="results-container"></div>
+    </div>
+    
+    <!-- Move script tag to the bottom to ensure HTML is loaded before JS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
